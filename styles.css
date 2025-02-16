@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Alike+Angular&display=swap);
 .alike-angular-regular {
   font-family: "Alike Angular", serif;
   font-weight: 400;
@@ -13,4 +14,77 @@
   font-family: "Agdasima", serif;
   font-weight: 700;
   font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #030206;
+}
+li,a,button{
+  font-family: 'Alike Angular', serif;
+  font-weight: 500;
+  font-size: 16px;
+  color:#FFFFFF;
+  text-decoration: none;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 10%;
+  
+}
+.logo{
+  cursor: pointer;
+  height: 111px;
+  width: 333px;
+  align-self: left;
+  margin: 0px 0px 0px -90px; 
+
+}
+.navlinks{
+list-style: none;
+}
+.navlinks li{
+  display: inline-block;
+  padding: 0px 50px;
+  align-self: auto;
+  margin: 18px 0px 0px -50px; 
+}
+.navlinks li a{
+  transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+  color: #69021e;
+}
+button{
+  padding: 9px 25px;
+  background-color: #030206;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: #69021e;
+}
+.ul{
+  align-items: center;
+}
+.ftoexemplo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  width: 60vh;
+  height: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 19%;
+}
+.hero h1, .hero h2, .hero p{
+  color: #FFFFFF;
+  align-items: center;
+  margin: 0px 0px 0px 959px;
 }
