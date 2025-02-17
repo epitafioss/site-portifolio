@@ -121,3 +121,11 @@ button:hover{
 .hero{
   margin: 0px 0px 0px 70px;
 }
+.resumo{
+  margin: 400px 0px 0px 45px;
+  color: #FFFFFF;
+  font-family: 'Alike Angular', serif;
+  font-weight: 200;
+  font-size: 17px;
+  text-align: center;
+}
