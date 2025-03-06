@@ -92,6 +92,9 @@ button:hover{
   color: whitesmoke;
   text-decoration: none;
   animation: blink 1.5s step-start 0s infinite;
+  position: relative;
+  left: 850px;
+  top: 100px;
 }
 @keyframes blink {
   50% {
@@ -99,6 +102,10 @@ button:hover{
   }
 }
 .copyright{
+  color: #FFFFFF;
+  position: relative;
+  top: 225px;
+  left: 875px;
 }
 .hero{
   margin: 0 auto;
@@ -116,4 +123,6 @@ button:hover{
   margin-left: 975px;
   padding: 0px 0px 0px 0px; 
   color: #FFFFFF;
+  position: relative;
+  bottom: 175px;
 }
