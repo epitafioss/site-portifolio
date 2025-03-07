@@ -73,19 +73,9 @@ button:hover{
 .ul{
   align-items: center;
 }
-#xibiu{
-  background-image: url('imgsrc/4840485d9087f1de93a80943f6e4fe62.jpg'); 
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: auto;
-  height: 300px;
-  width: 300px;
-  border-radius: 20%;
-  margin-left: 650px;
-  margin-right: 0px;
-  display: inline-block;
-}
+
 .whoami{
+  display: block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 12px;
@@ -93,8 +83,10 @@ button:hover{
   text-decoration: none;
   animation: blink 1.5s step-start 0s infinite;
   position: relative;
-  left: 850px;
   top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 @keyframes blink {
   50% {
@@ -105,11 +97,7 @@ button:hover{
   color: #FFFFFF;
   position: relative;
   top: 225px;
-  left: 875px;
-}
-.hero{
-  margin: 0 auto;
-  height: 200px;
+  text-align: center;
 }
 .resumo{
   margin: 400px 0px 0px 45px;
@@ -120,9 +108,22 @@ button:hover{
   text-align: center;
 }
 .text{
-  margin-left: 975px;
-  padding: 0px 0px 0px 0px; 
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  display: flex;
   color: #FFFFFF;
-  position: relative;
-  bottom: 175px;
+}
+#textoimg{
+  margin: auto;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+#imagemcentro{
+  margin: auto;
+  margin-right: 0;
+  border-radius: 20%;
+  height: 300px;
+  width: 300px;
 }
