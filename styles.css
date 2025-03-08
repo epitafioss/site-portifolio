@@ -127,3 +127,72 @@ button:hover{
   height: 300px;
   width: 300px;
 }
+.containerportifolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card1 {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+}
+
+.project-info {
+  padding: 15px;
+}
+
+.project-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #faf9f6;
+}
+
+.project-info p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.projetos-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projetos-link:hover {
+  text-decoration: underline;
+}
+.card-1{
+  box-shadow: 0 0 20px  rgba(0,0,0,0.2);
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  color: #faf9f6;
+}
+.containerportifolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}

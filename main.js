@@ -1,5 +1,5 @@
 document.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
-        window.location.href = "whoami.html";
+        window.location.href = "portifolio.html";
     }
 });
