@@ -137,15 +137,16 @@ button:hover{
 
 .card1 {
   width: 300px;
-  background: #fff;
+  background: #343231;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, width 0.3s ease;
 }
 
 .card1:hover {
   transform: scale(1.05);
+  width: 350px; /* Expands when hovered */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -180,19 +181,37 @@ button:hover{
 .projetos-link:hover {
   text-decoration: underline;
 }
-.card-1{
-  box-shadow: 0 0 20px  rgba(0,0,0,0.2);
-  width: 80%;
-  max-width: 800px;
-  display: flex;
-  flex-direction: row;
-  background: white;
+.card2 {
+  width: 300px;
+  background: #343231;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, width 0.3s ease;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+  width: 350px; /* Expands when hovered */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card2 img {
+  width: 100%;
+  height: auto;
+}
+
+.project2-info {
+  padding: 15px;
+}
+
+.project2-info h3 {
+  margin: 0;
+  font-size: 1.2em;
   color: #faf9f6;
 }
-.containerportifolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+
+.project2-info p {
+  font-size: 0.9em;
+  color: #666;
 }
