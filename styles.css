@@ -33,7 +33,7 @@ header{
   height: 250px;
 }
 .logo{
-  cursor: pointer;
+  cursor: default;
   height: 111px;
   width: 333px;
   align-self: left;
@@ -146,13 +146,12 @@ button:hover{
 
 .card1:hover {
   transform: scale(1.05);
-  width: 350px; /* Expands when hovered */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .card1 img {
   width: 100%;
-  height: auto;
+  height: 337px;
 }
 
 .project-info {
@@ -198,7 +197,6 @@ button:hover{
 
 .card2 img {
   width: 100%;
-  height: auto;
 }
 
 .project2-info {
@@ -207,7 +205,7 @@ button:hover{
 
 .project2-info h3 {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.2em; 
   color: #faf9f6;
 }
 
